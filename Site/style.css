@@ -1,0 +1,213 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.main
+{
+    width: 100%;
+    background-image: url("pexels-fwstudio-129731.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1x;
+    border-style: solid;
+}
+
+.navbar
+{
+    width: 1230px;
+    height: 75px;
+    margin: auto;
+    background-color: #000;
+}
+
+.icon
+{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo
+{
+    color:#ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 30px;
+    float: left;
+    padding-top: 15px;
+}
+
+.menu
+{
+    padding-left: 630px;
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li
+{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover
+{
+    color:aqua
+}
+
+.content
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par
+{
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1
+{
+    color: #ff7200;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+
+
+.content a
+{
+    font-family: 'Franklin Gothic Medium';
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 17px;
+    padding: 12px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #000;
+    font-size: 1.0em;
+    background: #ff7200;
+    transition: .3s ease;
+
+}
+
+.content a:hover
+{
+    color: #ff7200;
+    background-color: #fff;
+}
+
+.Information
+{
+    background-image: url("pexels-pixabay-268415.jpg");
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.Information h2
+{
+    color: #0f0240;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 30px;
+    float: left;
+    padding-top: 15px;
+}
+
+.Information p
+{
+    color: #000;
+    font-size: 20px;
+    font-family: Arial;
+    padding-right: 775px;
+    padding-top: 100px;
+}
+
+
+.Download
+{
+    background: #000;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.Download h1
+{
+    color: #fff;
+}
+
+.Download .BT
+{
+    width: 180px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.Download .BT a
+{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.BT:hover
+{
+    color: #ff7200;
+    background-color: #fff;
+}
