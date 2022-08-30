@@ -1,5 +1,4 @@
-*
-{
+*{
     margin: 0;
     padding: 0;
 }
@@ -12,19 +11,22 @@ html
 .main
 {
     width: 100%;
+    position: relative;
     background-image: url("pexels-fwstudio-129731.jpg");
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    min-height: 100vh;
     border-left: 0px;
     border-right: 0px;
     border-bottom: 1x;
     border-style: solid;
+    cursor: default;
 }
 
 .navbar
 {
-    width: 1230px;
+    position: relative;
+    width: 100%;
     height: 75px;
     margin: auto;
     background-color: #000;
@@ -47,51 +49,57 @@ html
     padding-top: 15px;
 }
 
-.menu
-{
-    padding-left: 630px;
-    width: 400px;
-    float: left;
-    height: 70px;
-}
-
-ul
-{
-    float: left;
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 35px, 0;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 
-ul li
+.menu ul li
 {
     list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
-    font-size: 14px;
+    display: inline-block;
+    right: 10px;
+    margin: 0 20px;
+    position: relative;
 }
 
-ul li a
+.menu ul li a
 {
     text-decoration: none;
-    color: white;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium';
+    text-transform: uppercase;
 }
 
-ul li a:hover
+.menu ul li::after
 {
-    color:aqua
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #ff7200;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s ease-in-out;
+}
+
+.menu ul li:hover::after
+{
+    width: 100%;
 }
 
 .content
 {
-    width: 1200px;
-    height: auto;
-    margin: auto;
-    color: #fff;
-    position: relative;
+    width: 100%;
+    position:absolute;
+    top: 10%;
+    text-align: center;
+    cursor:default;
+
 }
 
 .content .par
@@ -124,7 +132,6 @@ ul li a:hover
     margin-left: 17px;
     padding: 12px 30px;
     border-radius: 5px;
-    display: inline-block;
     color: #000;
     font-size: 1.0em;
     background: #ff7200;
@@ -147,6 +154,7 @@ ul li a:hover
     text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
+
 
 }
 
